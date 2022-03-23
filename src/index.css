@@ -1,13 +1,100 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App{
+  
+  display: flex;
+
+  
+
+}
+.container{
+  background-color: #fff;
+  max-width: 350px;
+  height: 90vh;
+  width: 80vw;
+  margin: 5vh auto;
+  padding: 3vw 16px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container > h3 {
+  text-align: center;
+
+}
+
+.dayline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0px;
+  width: 100%;
+  
+  }
+
+.dayline > p{
+  margin: 0px 0.5rem 0px 0px;
+  font-weight: bold;
+}
+
+.triangle {
+  
+  appearance: none ;
+  background-color: transparent ;
+  border-color: purple ;
+  width: 0 ;
+  height: 0 ;
+  border-top: 1rem solid transparent ;
+  border-bottom: 1rem solid transparent ;
+  border-left: 1.6rem solid purple ;
+  color: white;
+  cursor: pointer;
+  
+}
+
+.list_item {
+    padding: 16px;
+    margin: 8px;
+    
+}
+
+.circle{
+
+  width: 30px;
+height: 30px;
+border-radius: 30px;
+margin: 5px;
+background-color: lightgrey;
+}
+
+
+.writepoint{
+display: center;
+text-align: center;
+
+}
+
+.days{
+  color:white;
+  font-weight: 900;
+  background-color: orange;
+  padding:0.2rem;
+  border-radius: 5px;
+}
+
+.clickcircle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0px;
+  width: 100%;
+
+}
+
+.ratingbtn{
+  width:100%;
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  padding:1rem;
+  color: white;
 }
